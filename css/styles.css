@@ -28,7 +28,7 @@ html{
 
 .navbar-two {
     padding: 15px 0;
-    background: rgb(20, 220, 37, 0.95);
+    background: rgb(68, 154, 65, 0.95);
 }
 
 .navbar .max-width {
@@ -44,7 +44,7 @@ html{
 }
 
 .navbar .logo a span {
-    color: #449a41;
+    color: rgb(68, 154, 65);
 }
 
 .navbar-two .logo a span {
@@ -443,6 +443,8 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+
+/* TODO Estilos de Lightbox */
 
 /* Contact */
 
