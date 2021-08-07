@@ -1,14 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
-  font-family: "Merriweather", serif;
-  max-width: 1440px; }
-
 .home {
-  background-image: url("../img/home_background.jpg");
+  background-image: url("../img/fondo.jpg");
   width: 100%;
   height: calc(100vh + 53px); }
   .home .home__container {
@@ -47,27 +38,9 @@
         height: calc(100% - 40px);
         border-radius: 20px; }
         .home .home__container .home__coding .coding__container .coding__space {
-          padding: 50px;
-          color: white;
-          word-spacing: 5px;
-          line-height: 2em;
-          letter-spacing: 1px; }
-          .home .home__container .home__coding .coding__container .coding__space p.comment {
-            width: 100%; }
-          .home .home__container .home__coding .coding__container .coding__space .comment {
-            color: #75715e; }
-          .home .home__container .home__coding .coding__container .coding__space .code {
-            color: #66d9ef; }
-          .home .home__container .home__coding .coding__container .coding__space .class {
-            color: #a6e22e; }
-          .home .home__container .home__coding .coding__container .coding__space .symbol {
-            color: white; }
-          .home .home__container .home__coding .coding__container .coding__space .statement {
-            color: #f92672; }
-          .home .home__container .home__coding .coding__container .coding__space .condition {
-            color: #fd971f; }
-          .home .home__container .home__coding .coding__container .coding__space .method {
-            color: #e69f66; }
+          margin: 50px;
+          background: red;
+          color: white; }
   .home .home__menu {
     width: inherit;
     height: 53px;

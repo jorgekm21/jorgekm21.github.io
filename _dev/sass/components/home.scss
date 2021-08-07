@@ -1,0 +1,100 @@
+.home {
+  background-image: url("../img/home_background.jpg");
+  width: 100%;
+  height: calc(100vh + 53px);
+  .home__container {
+    display: flex;
+    width: inherit;
+    height: 100vh;
+    .home__textContent {
+      margin: auto 0 auto 40px;
+      padding: 80px 80px;
+      background-color: rgba(213, 241, 213, 0.35);
+      backdrop-filter: blur(5px);
+      border-radius: 20px;
+      box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5);
+      animation: fadeInUp 1.3s ease-in-out;
+      .textContent_1 {
+        font-size: 27px;
+      }
+      .textContent_2 {
+        font-size: 75px;
+        font-weight: bold;
+      }
+      .textContent_3 {
+        font-size: 40px;
+        .text__work {
+          color: #7ecb7e;
+          font-weight: bold;
+        }
+      }
+    }
+    .home__coding {
+      height: 75vh;
+      background: rgba(0, 0, 0, 0.5);
+      box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(5px);
+      border-radius: 20px;
+      width: 40%;
+      margin: auto 40px auto 40px;
+      .coding__container {
+        margin: 20px;
+        background: rgba(0, 0, 0, 0.75);
+        height: calc(100% - 40px);
+        border-radius: 20px;
+        .coding__space {
+          padding: 50px;
+          color: white;
+          word-spacing: 5px;
+          line-height: 2em;
+          letter-spacing: 1px;
+          p.comment {
+            width: 100%;
+          }
+          .comment {
+            color: #75715e;
+          }
+          .code {
+            color: #66d9ef;
+          }
+          .class {
+            color: #a6e22e;
+          }
+          .symbol {
+            color: white;
+          }
+          .statement {
+            color: #f92672;
+          }
+          .condition {
+            color: #fd971f;
+          }
+          .method {
+            color: #e69f66;
+          }
+        }
+      }
+    }
+  }
+  .home__menu {
+    width: inherit;
+    height: 53px;
+    background: rgba(126, 203, 126, 0.25);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    .menu__elements {
+      display: flex;
+      padding-left: 80px;
+      .menu__element {
+        margin: 15px 30px;
+        a {
+          color: black;
+          transition: 0.3s all ease;
+        }
+        a:hover {
+          color: green;
+        }
+      }
+    }
+  }
+}
