@@ -1,0 +1,15 @@
+{
+  "name": "portafolio_jk_2_0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass _dev/sass/style.scss -o src/public/css && node-sass _dev/sass/style.scss -w -o src/public/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
