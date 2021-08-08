@@ -9,10 +9,10 @@
     .home__textContent {
       margin: auto 0 auto 40px;
       padding: 80px 80px;
-      background-color: rgba(213, 241, 213, 0.35);
+      background-color: $background_glass;
       backdrop-filter: blur(5px);
       border-radius: 20px;
-      box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5);
+      box-shadow: $shadow_card;
       animation: fadeInUp 1.3s ease-in-out;
       .textContent_1 {
         font-size: 27px;
@@ -24,7 +24,7 @@
       .textContent_3 {
         font-size: 40px;
         .text__work {
-          color: #7ecb7e;
+          color: $text_green1;
           font-weight: bold;
         }
       }
@@ -52,25 +52,25 @@
             width: 100%;
           }
           .comment {
-            color: #75715e;
+            color: map-get($codes, comment);
           }
           .code {
-            color: #66d9ef;
+            color: map-get($codes, code);
           }
           .class {
-            color: #a6e22e;
+            color: map-get($codes, class);
           }
           .symbol {
-            color: white;
+            color: map-get($codes, symbol);
           }
           .statement {
-            color: #f92672;
+            color: map-get($codes, statement);
           }
           .condition {
-            color: #fd971f;
+            color: map-get($codes, condition);
           }
           .method {
-            color: #e69f66;
+            color: map-get($codes, method);
           }
         }
       }
