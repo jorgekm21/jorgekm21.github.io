@@ -82,6 +82,7 @@
     background: rgba(126, 203, 126, 0.25);
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(5px);
+    border-bottom: 3px solid $text_green1;
     .menu__elements {
       display: flex;
       padding-left: 80px;
