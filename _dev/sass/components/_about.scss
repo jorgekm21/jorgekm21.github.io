@@ -1,45 +1,65 @@
 .about {
-  width: calc(100% - 40%);
-  margin: 0 20%;
-  .about__title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 50px 0;
-    .title {
-      font-size: 50px;
-    }
-    .title__bar {
-      height: 4px;
-      background-color: #444649;
-      width: 70px;
-      transition: width 0.3s ease;
-    }
-  }
-  .about__title:hover {
-    .title__bar {
-      width: 180px;
-    }
-  }
-  .about__content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    .content__me {
-      width: 100%;
-      img {
-        width: 100%;
-        fill: green;
+  width: 100%;
+  background-color: #fafafa;
+  .about__space {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    .about__title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 50px 0;
+      .title {
+        font-size: 50px;
+      }
+      .title__bar {
+        height: 4px;
+        background-color: #444649;
+        width: 70px;
+        transition: width 0.3s ease;
       }
     }
-    .content__me:hover {
-      animation: pulse 0.5s ease;
+    .about__title:hover {
+      .title__bar {
+        width: 180px;
+      }
     }
-    .content__text {
-      margin-left: 50px;
-      font-size: 20px;
-      font-weight: lighter;
+    .about__content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .content__me {
+        width: 100%;
+        img {
+          width: 80%;
+        }
+      }
+      .content__me:hover {
+        animation: pulse 0.5s ease;
+      }
+      .content__text {
+        margin-left: 50px;
+        font-size: 20px;
+        font-weight: lighter;
+        .button__life {
+          text-align: center;
+          margin-top: 40px;
+          a {
+            padding: 20px 30px;
+            color: white;
+            background-color: $text_green1;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+          }
+          a:hover {
+            color: $text_green1;
+            border: 1px solid $text_green1;
+            background-color: white;
+          }
+        }
+      }
     }
   }
 }

@@ -1,5 +1,11 @@
 const typed = new Typed(".text__work", {
-  strings: ["Engineer", "Backend Dev", "FrontEnd Dev"],
+  strings: [
+    "Engineer",
+    "Python Dev",
+    "NodeJS Dev",
+    "ReactJS Dev",
+    "BD Manager",
+  ],
   typeSpeed: 30,
   startDelay: 150,
   backSpeed: 45,
