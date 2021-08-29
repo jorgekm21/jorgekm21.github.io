@@ -1,0 +1,33 @@
+.works {
+  width: 100%;
+  .works__space {
+    background-color: #fafafa;
+    width: 80%;
+    margin: 0 auto;
+    border: solid $text_green1;
+    border-width: 0 3px;
+    .works__title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 35px 0 50px 0;
+      .title {
+        font-size: 50px;
+      }
+      .title_bar {
+        height: 4px;
+        background-color: #444649;
+        width: 70px;
+        transition: width 0.3s ease;
+      }
+    }
+    .works__title:hover {
+      .title_bar {
+        width: 180px;
+      }
+    }
+    .works__content {
+    }
+  }
+}

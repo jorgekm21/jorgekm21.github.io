@@ -1,5 +1,5 @@
 .home {
-  background-image: url("../img/home_background.jpg");
+  background-image: url("../img/protruding-squares.svg");
   width: 100%;
   height: calc(100vh + 53px);
   .home__container {
@@ -78,6 +78,9 @@
   }
   .home__menu {
     width: inherit;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
     height: 53px;
     background: rgba(126, 203, 126, 0.25);
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
