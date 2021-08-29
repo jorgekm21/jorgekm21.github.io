@@ -1,7 +1,7 @@
 .works {
   width: 100%;
   .works__space {
-    background-color: #fafafa;
+    background-color: rgba(250, 250, 250, .75);
     width: 80%;
     margin: 0 auto;
     border: solid $text_green1;
@@ -28,6 +28,51 @@
       }
     }
     .works__content {
+      width: 90%;
+      margin: 0 auto;
+      .cards{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .card{
+        display: grid;
+        margin: 10px 15px;
+        width: 300px;
+        grid-template-columns: 300px;
+        grid-template-rows: 210px 210px;
+        grid-template-areas: "image" "text";
+        border-radius: 18px;
+        background: white;
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+        text-align: center;
+        .card-image{
+          grid-area: image;
+          background: url("../img/protruding-squares.svg");
+          border-top-left-radius: 15px;
+          border-top-right-radius: 15px;
+          background-size: cover;
+        }
+        .card-text{
+          grid-area: text;
+          margin: 25px;
+          .date{
+            color: rgb(255,7,110);
+            font-size: 13px;
+          }
+          p{
+            color: grey;
+            font-size: 15px;
+            font-weight: 300;
+          }
+          h2{
+            margin-top: 0;
+            font-size: 28px;
+          }
+        }
+      }
+      .card:hover{
+        animation: pulse 0.5s ease;
+      }
     }
   }
 }

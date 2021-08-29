@@ -97,7 +97,7 @@
 .about {
   width: 100%; }
   .about .about__space {
-    background-color: #fafafa;
+    background-color: rgba(250, 250, 250, 0.75);
     width: 80%;
     margin: 0 auto;
     border: solid #7ecb7e;
@@ -151,7 +151,7 @@
 .works {
   width: 100%; }
   .works .works__space {
-    background-color: #fafafa;
+    background-color: rgba(250, 250, 250, 0.75);
     width: 80%;
     margin: 0 auto;
     border: solid #7ecb7e;
@@ -171,3 +171,41 @@
         transition: width 0.3s ease; }
     .works .works__space .works__title:hover .title_bar {
       width: 180px; }
+    .works .works__space .works__content {
+      width: 90%;
+      margin: 0 auto; }
+      .works .works__space .works__content .cards {
+        display: flex;
+        flex-wrap: wrap; }
+      .works .works__space .works__content .card {
+        display: grid;
+        margin: 10px 15px;
+        width: 300px;
+        grid-template-columns: 300px;
+        grid-template-rows: 210px 210px;
+        grid-template-areas: "image" "text";
+        border-radius: 18px;
+        background: white;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+        text-align: center; }
+        .works .works__space .works__content .card .card-image {
+          grid-area: image;
+          background: url("../img/protruding-squares.svg");
+          border-top-left-radius: 15px;
+          border-top-right-radius: 15px;
+          background-size: cover; }
+        .works .works__space .works__content .card .card-text {
+          grid-area: text;
+          margin: 25px; }
+          .works .works__space .works__content .card .card-text .date {
+            color: #ff076e;
+            font-size: 13px; }
+          .works .works__space .works__content .card .card-text p {
+            color: grey;
+            font-size: 15px;
+            font-weight: 300; }
+          .works .works__space .works__content .card .card-text h2 {
+            margin-top: 0;
+            font-size: 28px; }
+      .works .works__space .works__content .card:hover {
+        animation: pulse 0.5s ease; }
