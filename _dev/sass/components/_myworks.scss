@@ -39,8 +39,8 @@
         margin: 10px 15px;
         width: 300px;
         grid-template-columns: 300px;
-        grid-template-rows: 210px 210px;
-        grid-template-areas: "image" "text";
+        grid-template-rows: 210px 150px 80px;
+        grid-template-areas: "image" "text" "stats";
         border-radius: 18px;
         background: white;
         box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
@@ -51,6 +51,8 @@
           border-top-left-radius: 15px;
           border-top-right-radius: 15px;
           background-size: cover;
+          margin: 5px;
+          border-radius: 18px;
         }
         .card-text{
           grid-area: text;
@@ -68,6 +70,76 @@
             margin-top: 0;
             font-size: 28px;
           }
+        }
+        .card-stats{
+          grid-area: stats;
+          background: $text_green1;
+          border-radius: 18px;
+          .github{
+            border-right: 2px solid black;
+            width: 50%;
+            height: 100%;
+          }
+        }
+        .jwt{
+          background: url("../img/jwtio-json-web-token.svg");
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+        }
+        .socket_io{
+          background: url("../img/socket-io.svg");
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+        }
+        .marvel{
+          background: url("../img/marvel.svg");
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+        }
+        .node{
+          background: url("../img/nodejs.svg");
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+        }
+        .prestashop{
+          background: url("../img/prestashop.svg");
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+        }
+        .partyfiesta{
+          background: url("../img/partyfiesta.png");
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+        }
+        .odoo{
+          background: url("../img/odoo.svg");
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+        }
+        .pokemon{
+          background: url("../img/pokemon.svg");
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+        }
+        .camera{
+          background: url("../img/camera.svg");
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+        }
+        .angel{
+          background: url("../img/angel.svg");
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+        }
+        .draw{
+          background: url("../img/draw.svg");
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+        }
+        .challenges{
+          background: url("../img/challenges.svg");
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
         }
       }
       .card:hover{

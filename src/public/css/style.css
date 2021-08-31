@@ -182,8 +182,8 @@
         margin: 10px 15px;
         width: 300px;
         grid-template-columns: 300px;
-        grid-template-rows: 210px 210px;
-        grid-template-areas: "image" "text";
+        grid-template-rows: 210px 150px 80px;
+        grid-template-areas: "image" "text" "stats";
         border-radius: 18px;
         background: white;
         box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
@@ -193,7 +193,9 @@
           background: url("../img/protruding-squares.svg");
           border-top-left-radius: 15px;
           border-top-right-radius: 15px;
-          background-size: cover; }
+          background-size: cover;
+          margin: 5px;
+          border-radius: 18px; }
         .works .works__space .works__content .card .card-text {
           grid-area: text;
           margin: 25px; }
@@ -207,5 +209,61 @@
           .works .works__space .works__content .card .card-text h2 {
             margin-top: 0;
             font-size: 28px; }
+        .works .works__space .works__content .card .card-stats {
+          grid-area: stats;
+          background: #7ecb7e;
+          border-radius: 18px; }
+          .works .works__space .works__content .card .card-stats .github {
+            border-right: 2px solid black;
+            width: 50%;
+            height: 100%; }
+        .works .works__space .works__content .card .jwt {
+          background: url("../img/jwtio-json-web-token.svg");
+          background-repeat: no-repeat;
+          background-size: 100% 100%; }
+        .works .works__space .works__content .card .socket_io {
+          background: url("../img/socket-io.svg");
+          background-repeat: no-repeat;
+          background-size: 100% 100%; }
+        .works .works__space .works__content .card .marvel {
+          background: url("../img/marvel.svg");
+          background-repeat: no-repeat;
+          background-size: 100% 100%; }
+        .works .works__space .works__content .card .node {
+          background: url("../img/nodejs.svg");
+          background-repeat: no-repeat;
+          background-size: 100% 100%; }
+        .works .works__space .works__content .card .prestashop {
+          background: url("../img/prestashop.svg");
+          background-repeat: no-repeat;
+          background-size: 100% 100%; }
+        .works .works__space .works__content .card .partyfiesta {
+          background: url("../img/partyfiesta.png");
+          background-repeat: no-repeat;
+          background-size: 100% 100%; }
+        .works .works__space .works__content .card .odoo {
+          background: url("../img/odoo.svg");
+          background-repeat: no-repeat;
+          background-size: 100% 100%; }
+        .works .works__space .works__content .card .pokemon {
+          background: url("../img/pokemon.svg");
+          background-repeat: no-repeat;
+          background-size: 100% 100%; }
+        .works .works__space .works__content .card .camera {
+          background: url("../img/camera.svg");
+          background-repeat: no-repeat;
+          background-size: 100% 100%; }
+        .works .works__space .works__content .card .angel {
+          background: url("../img/angel.svg");
+          background-repeat: no-repeat;
+          background-size: 100% 100%; }
+        .works .works__space .works__content .card .draw {
+          background: url("../img/draw.svg");
+          background-repeat: no-repeat;
+          background-size: 100% 100%; }
+        .works .works__space .works__content .card .challenges {
+          background: url("../img/challenges.svg");
+          background-repeat: no-repeat;
+          background-size: 100% 100%; }
       .works .works__space .works__content .card:hover {
         animation: pulse 0.5s ease; }
