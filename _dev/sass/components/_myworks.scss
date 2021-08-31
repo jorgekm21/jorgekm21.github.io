@@ -73,12 +73,27 @@
         }
         .card-stats{
           grid-area: stats;
-          background: $text_green1;
+          display: flex;
+          flex-wrap: nowrap;
           border-radius: 18px;
+          margin: 10px;
           .github{
-            border-right: 2px solid black;
             width: 50%;
             height: 100%;
+            background: url("../img/github.svg");
+            background-repeat: no-repeat;
+            background-size: auto 100%;
+            background-position: center;
+            cursor: pointer;
+          }
+          .notion{
+            width: 50%;
+            height: 100%;
+            background: url("../img/vs.svg");
+            background-repeat: no-repeat;
+            background-size: auto 100%;
+            background-position: center;
+            cursor: pointer;
           }
         }
         .jwt{

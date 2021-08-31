@@ -211,12 +211,26 @@
             font-size: 28px; }
         .works .works__space .works__content .card .card-stats {
           grid-area: stats;
-          background: #7ecb7e;
-          border-radius: 18px; }
+          display: flex;
+          flex-wrap: nowrap;
+          border-radius: 18px;
+          margin: 10px; }
           .works .works__space .works__content .card .card-stats .github {
-            border-right: 2px solid black;
             width: 50%;
-            height: 100%; }
+            height: 100%;
+            background: url("../img/github.svg");
+            background-repeat: no-repeat;
+            background-size: auto 100%;
+            background-position: center;
+            cursor: pointer; }
+          .works .works__space .works__content .card .card-stats .notion {
+            width: 50%;
+            height: 100%;
+            background: url("../img/vs.svg");
+            background-repeat: no-repeat;
+            background-size: auto 100%;
+            background-position: center;
+            cursor: pointer; }
         .works .works__space .works__content .card .jwt {
           background: url("../img/jwtio-json-web-token.svg");
           background-repeat: no-repeat;
