@@ -216,21 +216,13 @@
           border-radius: 18px;
           margin: 10px; }
           .works .works__space .works__content .card .card-stats .github {
-            width: 50%;
-            height: 100%;
-            background: url("../img/github.svg");
-            background-repeat: no-repeat;
-            background-size: auto 100%;
-            background-position: center;
-            cursor: pointer; }
+            width: 50%; }
+            .works .works__space .works__content .card .card-stats .github img {
+              height: 100%; }
           .works .works__space .works__content .card .card-stats .notion {
-            width: 50%;
-            height: 100%;
-            background: url("../img/vs.svg");
-            background-repeat: no-repeat;
-            background-size: auto 100%;
-            background-position: center;
-            cursor: pointer; }
+            width: 50%; }
+            .works .works__space .works__content .card .card-stats .notion img {
+              height: 100%; }
         .works .works__space .works__content .card .jwt {
           background: url("../img/jwtio-json-web-token.svg");
           background-repeat: no-repeat;
