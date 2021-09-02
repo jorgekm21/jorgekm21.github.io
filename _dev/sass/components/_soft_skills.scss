@@ -1,0 +1,35 @@
+.soft_skills{
+    width: 100%;
+    .skills__space{
+        background-color: rgba(250, 250, 250, .75);
+        width: 80%;
+        margin: 0 auto;
+        border: solid $text_green1;
+        border-width: 0 3px;
+        .skills__title{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 35px 0 50px 0;
+            .title{
+                font-size: 50px;
+            }
+            .title_bar{
+                height: 4px;
+                background-color: #444649;
+                width: 70px;
+                transition: width 0.3s ease;
+            }
+        }
+        .skills__title:hover{
+            .title_bar{
+                width: 180px;
+            }
+        }
+        .skills__content{
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
+}

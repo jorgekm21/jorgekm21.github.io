@@ -8,6 +8,10 @@
   max-width: 1440px;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .content__background{
   background: url('../img/endless-constellation.svg');
   background-repeat: repeat;
