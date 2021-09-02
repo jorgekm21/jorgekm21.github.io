@@ -17,3 +17,7 @@ const typed = new Typed(".text__work", {
   cursorChar: "|",
   contentType: "html",
 });
+
+challenges.addEventListener('click', () => {
+  window.open('https://github.com/jorgekm21/404')
+})
