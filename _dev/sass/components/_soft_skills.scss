@@ -30,6 +30,25 @@
         .skills__content{
             width: 90%;
             margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            .skill{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 112px;
+                height: 112px;
+                margin: 20px 40px;
+                background-color: #fff;
+                padding: 10px;
+                border-radius: 18px;
+                border: 2px solid $text_green1;
+                img{
+                    width: 100%;
+                }
+            }
         }
     }
 }
