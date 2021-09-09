@@ -52,7 +52,7 @@ html {
       .home .home__container .home__coding .coding__container {
         margin: 20px;
         background: rgba(0, 0, 0, 0.75);
-        height: calc(100% - 40px);
+        height: calc($full_width - 40px);
         border-radius: 20px; }
         .home .home__container .home__coding .coding__container .coding__space {
           padding: 50px;

@@ -1,8 +1,8 @@
 .about {
-  width: 100%;
+  width: $full_width;
   .about__space {
     background-color: rgba(250, 250, 250, .75);
-    width: 80%;
+    width: $partial_width;
     margin: 0 auto;
     border: solid $text_green1;
     border-width: 0 3px;
@@ -33,10 +33,10 @@
       align-items: center;
       justify-content: center;
       .content__me {
-        width: 100%;
+        width: $full_width;
         margin-bottom: 15px;
         img {
-          width: 80%;
+          width: $partial_width;
           margin: 0 auto;
         }
       }

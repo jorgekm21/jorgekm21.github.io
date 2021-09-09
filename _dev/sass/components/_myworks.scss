@@ -1,8 +1,8 @@
 .works {
-  width: 100%;
+  width: $full_width;
   .works__space {
     background-color: rgba(250, 250, 250, .75);
-    width: 80%;
+    width: $partial_width;
     margin: 0 auto;
     border: solid $text_green1;
     border-width: 0 3px;
@@ -81,75 +81,75 @@
           .github{
             width: 50%;
             img{
-              height: 100%;
+              height: $full_width;
             }
           }
           .notion{
             width: 50%;
             img{
-              height: 100%;
+              height: $full_width;
             }
           }
         }
         .jwt{
           background: url("../img/jwtio-json-web-token.svg");
           background-repeat: no-repeat;
-          background-size: 100% 100%;
+          background-size: $full_width $full_width;
         }
         .socket_io{
           background: url("../img/socket-io.svg");
           background-repeat: no-repeat;
-          background-size: 100% 100%;
+          background-size: $full_width $full_width;
         }
         .marvel{
           background: url("../img/marvel.svg");
           background-repeat: no-repeat;
-          background-size: 100% 100%;
+          background-size: $full_width $full_width;
         }
         .node{
           background: url("../img/nodejs.svg");
           background-repeat: no-repeat;
-          background-size: 100% 100%;
+          background-size: $full_width $full_width;
         }
         .prestashop{
           background: url("../img/prestashop.svg");
           background-repeat: no-repeat;
-          background-size: 100% 100%;
+          background-size: $full_width $full_width;
         }
         .partyfiesta{
           background: url("../img/partyfiesta.png");
           background-repeat: no-repeat;
-          background-size: 100% 100%;
+          background-size: $full_width $full_width;
         }
         .odoo{
           background: url("../img/odoo.svg");
           background-repeat: no-repeat;
-          background-size: 100% 100%;
+          background-size: $full_width $full_width;
         }
         .pokemon{
           background: url("../img/pokemon.svg");
           background-repeat: no-repeat;
-          background-size: 100% 100%;
+          background-size: $full_width $full_width;
         }
         .camera{
           background: url("../img/camera.svg");
           background-repeat: no-repeat;
-          background-size: 100% 100%;
+          background-size: $full_width $full_width;
         }
         .angel{
           background: url("../img/angel.svg");
           background-repeat: no-repeat;
-          background-size: 100% 100%;
+          background-size: $full_width $full_width;
         }
         .draw{
           background: url("../img/draw.svg");
           background-repeat: no-repeat;
-          background-size: 100% 100%;
+          background-size: $full_width $full_width;
         }
         .challenges{
           background: url("../img/challenges.svg");
           background-repeat: no-repeat;
-          background-size: 100% 100%;
+          background-size: $full_width $full_width;
         }
       }
       .card:hover{
