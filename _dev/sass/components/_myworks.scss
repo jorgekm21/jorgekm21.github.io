@@ -1,9 +1,9 @@
 .works {
   width: $full_width;
   .works__space {
-    background-color: rgba(250, 250, 250, .75);
+    background-color: $background_space;
     width: $partial_width;
-    margin: 0 auto;
+    margin: $center_content;
     border: solid $text_green1;
     border-width: 0 3px;
     .works__title {
@@ -11,25 +11,25 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      padding: 35px 0 50px 0;
+      padding: $title_padding;
       .title {
         font-size: 50px;
       }
       .title_bar {
-        height: 4px;
-        background-color: #444649;
-        width: 70px;
+        height: $bar_height;
+        background-color: $color_bar;
+        width: $mini_bar;
         transition: width 0.3s ease;
       }
     }
     .works__title:hover {
       .title_bar {
-        width: 180px;
+        width: $full_bar;
       }
     }
     .works__content {
       width: 90%;
-      margin: 0 auto;
+      margin: $center_content;
       .cards{
         display: flex;
         flex-wrap: wrap;

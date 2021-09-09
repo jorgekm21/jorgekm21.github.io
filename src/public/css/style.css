@@ -101,7 +101,7 @@ html {
   width: 100%; }
   .about .about__space {
     background-color: rgba(250, 250, 250, 0.75);
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     border: solid #7ecb7e;
     border-width: 0 3px; }
@@ -129,7 +129,7 @@ html {
         width: 100%;
         margin-bottom: 15px; }
         .about .about__space .about__content .content__me img {
-          width: 80%;
+          width: 90%;
           margin: 0 auto; }
       .about .about__space .about__content .content__me:hover {
         animation: pulse 0.5s ease; }
@@ -155,7 +155,7 @@ html {
   width: 100%; }
   .works .works__space {
     background-color: rgba(250, 250, 250, 0.75);
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     border: solid #7ecb7e;
     border-width: 0 3px; }
@@ -282,7 +282,7 @@ html {
   width: 100%; }
   .soft_skills .skills__space {
     background-color: rgba(250, 250, 250, 0.75);
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     border: solid #7ecb7e;
     border-width: 0 3px; }
@@ -330,7 +330,7 @@ html {
   width: 100%; }
   .contact .contact__space {
     background-color: rgba(250, 250, 250, 0.75);
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     border: solid #7ecb7e;
     border-width: 0 3px; }
