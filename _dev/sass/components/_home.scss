@@ -29,6 +29,24 @@
         }
       }
     }
+    @media (max-width: 425px) {
+      .home__textContent{
+        width: 100%;
+        margin: 200px 10px 200px 10px;
+        padding: 5px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        .textContent_2{
+          font-size: 45px;
+        }
+        .textContent_3{
+          font-size: 30px;
+        }
+      }
+    }
     .home__coding {
       height: 75vh;
       background: rgba(0, 0, 0, 0.5);
@@ -73,6 +91,11 @@
             color: map-get($codes, method);
           }
         }
+      }
+    }
+    @media (max-width: 1024px) {
+      .home__coding{
+        display: none;
       }
     }
   }

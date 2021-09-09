@@ -55,5 +55,12 @@
                 animation: pulse 0.5s ease;
             }
         }
+        @media (max-width: 425px) {
+            .skills__content{
+                .skill{
+                    margin: 10px 20px;
+                }
+            }
+        }
     }
 }

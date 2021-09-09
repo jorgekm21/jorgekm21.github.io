@@ -156,5 +156,14 @@
         animation: pulse 0.5s ease;
       }
     }
+    @media (max-width: 1024px) {
+      .works__content{
+        width: $full_width;
+        .card{
+          width: 250px;
+          grid-template-columns: 250px;
+        }
+      }
+    }
   }
 }

@@ -41,6 +41,20 @@ html {
         .home .home__container .home__textContent .textContent_3 .text__work {
           color: #7ecb7e;
           font-weight: bold; }
+    @media (max-width: 425px) {
+      .home .home__container .home__textContent {
+        width: 100%;
+        margin: 200px 10px 200px 10px;
+        padding: 5px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column; }
+        .home .home__container .home__textContent .textContent_2 {
+          font-size: 45px; }
+        .home .home__container .home__textContent .textContent_3 {
+          font-size: 30px; } }
     .home .home__container .home__coding {
       height: 75vh;
       background: rgba(0, 0, 0, 0.5);
@@ -76,6 +90,9 @@ html {
             color: #fd971f; }
           .home .home__container .home__coding .coding__container .coding__space .method {
             color: #e69f66; }
+    @media (max-width: 1024px) {
+      .home .home__container .home__coding {
+        display: none; } }
   .home .home__menu {
     width: inherit;
     position: -webkit-sticky;
@@ -150,6 +167,13 @@ html {
             color: #7ecb7e;
             border: 1px solid #7ecb7e;
             background-color: white; }
+    @media (max-width: 768px) {
+      .about .about__space .about__content {
+        flex-direction: column; }
+        .about .about__space .about__content .content__me {
+          width: 30%; }
+        .about .about__space .about__content .button__life {
+          margin-bottom: 30px; } }
 
 .works {
   width: 100%; }
@@ -277,6 +301,12 @@ html {
           background-size: 100% 100%; }
       .works .works__space .works__content .card:hover {
         animation: pulse 0.5s ease; }
+    @media (max-width: 1024px) {
+      .works .works__space .works__content {
+        width: 100%; }
+        .works .works__space .works__content .card {
+          width: 250px;
+          grid-template-columns: 250px; } }
 
 .soft_skills {
   width: 100%; }
@@ -325,6 +355,9 @@ html {
       .soft_skills .skills__space .skills__content .skill:hover {
         background: #7ecb7e;
         animation: pulse 0.5s ease; }
+    @media (max-width: 425px) {
+      .soft_skills .skills__space .skills__content .skill {
+        margin: 10px 20px; } }
 
 .contact {
   width: 100%; }
@@ -379,6 +412,12 @@ html {
           color: #7ecb7e;
           margin-top: 5px;
           text-align: center; }
+    @media (max-width: 768px) {
+      .contact .contact__space .contact__content {
+        height: 100vh; } }
+    @media (max-width: 425px) {
+      .contact .contact__space .contact__content {
+        height: 120vh; } }
 
 .footer {
   width: 100%;

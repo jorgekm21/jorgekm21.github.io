@@ -65,5 +65,16 @@
         }
       }
     }
+    @media (max-width: 768px) {
+      .about__content{
+        flex-direction: column;
+        .content__me{
+          width: 30%;
+        }
+        .button__life{
+          margin-bottom: 30px;
+        }
+      }
+    }
   }
 }
