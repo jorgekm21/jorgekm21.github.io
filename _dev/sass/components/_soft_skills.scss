@@ -28,7 +28,7 @@
             }
         }
         .skills__content{
-            width: 90%;
+            width: 100%;
             margin: 0 auto;
             display: flex;
             flex-wrap: wrap;
@@ -38,16 +38,21 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                width: 112px;
-                height: 112px;
+                width: 125px;
+                height: 125px;
                 margin: 20px 40px;
                 background-color: #fff;
-                padding: 10px;
+                padding: 20px;
                 border-radius: 18px;
                 border: 2px solid $text_green1;
+                transition: 0.3s all ease;
                 img{
                     width: 100%;
                 }
+            }
+            .skill:hover{
+                background: $text_green1;
+                animation: pulse 0.5s ease;
             }
         }
     }
