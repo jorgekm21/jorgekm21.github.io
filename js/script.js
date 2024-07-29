@@ -1,9 +1,8 @@
 const typed = new Typed(".text__work", {
   strings: [
-    "Engineer",
+    "Ingeniero",
     "Python Dev",
     "NodeJS Dev",
-    "ReactJS Dev",
     "BD Manager",
   ],
   typeSpeed: 30,
