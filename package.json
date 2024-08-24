@@ -1,15 +1,22 @@
 {
-  "name": "portafolio_jk_2_0",
+  "name": "portafoliojk2",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
   "scripts": {
-    "sass": "node-sass -w _dev/sass -o css"
+    "dev": "node-sass --watch _dev/sass/ --output css/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.4"
+  },
   "dependencies": {
-    "node-sass": "^6.0.1"
+    "node-sass": "^9.0.0"
   }
 }
