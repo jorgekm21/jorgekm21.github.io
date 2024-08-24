@@ -4,6 +4,8 @@ const typed = new Typed(".text__work", {
     "Python Dev",
     "NodeJS Dev",
     "BD Manager",
+    ".NET Dev",
+    "Lider Tecnico"
   ],
   typeSpeed: 30,
   startDelay: 150,
